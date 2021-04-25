@@ -6,6 +6,20 @@ name = "pypi"
 [packages]
 gunicorn = "*"
 flask = "*"
+oauth2client = "*"
+oauthlib = "*"
+gspread = "*"
+gspread-dataframe = "*"
+google-api-core = "*"
+google-api-python-client = "*"
+google-auth = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+datetime-distance = "*"
+dateutils = "*"
+pandas = "*"
+pandas-datareader = "*"
+
 
 [dev-packages]
 
