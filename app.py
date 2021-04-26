@@ -21,8 +21,8 @@ def retrievesheet():
 
 
 app = Flask(__name__)
-@app.route('/webhook', methods=['POST'])
-def webhook():
+@app.route('/', methods=['POST'])
+def index():
     retrievesheet()
     if request.method == 'POST':
         print(request.json)
